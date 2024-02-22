@@ -1,0 +1,27 @@
+body {
+  font-family: Arial sans-serif;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-color: red;
+  border-style: solid;
+  border-width: 2px;
+  position: absolute;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.button__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
